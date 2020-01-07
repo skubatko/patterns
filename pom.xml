@@ -21,6 +21,7 @@
         <module>builder</module>
         <module>factory</module>
         <module>singleton</module>
+        <module>strategy</module>
     </modules>
 
     <developers>
