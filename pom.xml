@@ -23,6 +23,7 @@
         <module>singleton</module>
         <module>strategy</module>
         <module>facade</module>
+        <module>command</module>
     </modules>
 
     <developers>
