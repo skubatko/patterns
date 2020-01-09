@@ -18,27 +18,32 @@ public class TextFileUnitTest {
     }
     
     @Test
-    public void givenTextFileInstance_whenCalledopenMethod_thenOneAssertion() {
+    public void givenTextFileInstance_whenCalledOpenMethod_thenOneAssertion() {
         assertThat(textFile.open()).isEqualTo("Opening file file1.txt");
     }
     
     @Test
-    public void givenTextFileInstance_whenCalledwriteMethod_thenOneAssertion() {
+    public void givenTextFileInstance_whenCalledReadMethod_thenOneAssertion() {
+        assertThat(textFile.read()).isEqualTo("Reading file file1.txt");
+    }
+
+    @Test
+    public void givenTextFileInstance_whenCalledWriteMethod_thenOneAssertion() {
         assertThat(textFile.write()).isEqualTo("Writing to file file1.txt");
     }
     
     @Test
-    public void givenTextFileInstance_whenCalledsaveMethod_thenOneAssertion() {
+    public void givenTextFileInstance_whenCalledSaveMethod_thenOneAssertion() {
         assertThat(textFile.save()).isEqualTo("Saving file file1.txt");
     }
     
     @Test
-    public void givenTextFileInstance_whenCalledcopyMethod_thenOneAssertion() {
+    public void givenTextFileInstance_whenCalledCopyMethod_thenOneAssertion() {
         assertThat(textFile.copy()).isEqualTo("Copying file file1.txt");
     }
     
     @Test
-    public void givenTextFileInstance_whenCalledpasteMethod_thenOneAssertion() {
+    public void givenTextFileInstance_whenCalledPasteMethod_thenOneAssertion() {
         assertThat(textFile.paste()).isEqualTo("Pasting file file1.txt");
     }
 }
