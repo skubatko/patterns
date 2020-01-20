@@ -1,6 +1,6 @@
-package ru.skubatko.dev.patterns.factory.case1;
+package ru.skubatko.dev.patterns.factory_method.case1;
 
-public class Main {
+public class App {
 
     public static void main(String[] args) {
         Computer computer = ComputerFactory.getComputer( "PC", "16Gb", "1Tb", "i5 7200" );

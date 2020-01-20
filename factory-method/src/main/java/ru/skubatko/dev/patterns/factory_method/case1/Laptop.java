@@ -1,4 +1,4 @@
-package ru.skubatko.dev.patterns.factory.case1;
+package ru.skubatko.dev.patterns.factory_method.case1;
 
 public class Laptop extends Computer {
 

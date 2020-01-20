@@ -19,12 +19,12 @@
         <module>abstract-factory</module>
         <module>adapter</module>
         <module>builder</module>
-        <module>factory</module>
         <module>singleton</module>
         <module>strategy</module>
         <module>facade</module>
         <module>command</module>
         <module>template-method</module>
+        <module>factory-method</module>
     </modules>
 
     <developers>
