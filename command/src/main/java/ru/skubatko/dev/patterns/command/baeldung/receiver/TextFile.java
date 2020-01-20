@@ -1,4 +1,9 @@
-package ru.skubatko.dev.patterns.baeldung.receiver;
+/*
+ * VTB Group. Do not reproduce without permission in writing.
+ * Copyright (c) 2020 VTB Group. All rights reserved.
+ */
+
+package ru.skubatko.dev.patterns.command.baeldung.receiver;
 
 public class TextFile {
     

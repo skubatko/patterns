@@ -2,11 +2,11 @@ package ru.skubatko.dev.patterns.baeldung;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
-import ru.skubatko.dev.patterns.baeldung.command.OpenTextFileOperation;
-import ru.skubatko.dev.patterns.baeldung.command.SaveTextFileOperation;
-import ru.skubatko.dev.patterns.baeldung.command.TextFileOperation;
-import ru.skubatko.dev.patterns.baeldung.invoker.TextFileOperationExecutor;
-import ru.skubatko.dev.patterns.baeldung.receiver.TextFile;
+import ru.skubatko.dev.patterns.command.baeldung.command.OpenTextFileOperation;
+import ru.skubatko.dev.patterns.command.baeldung.command.SaveTextFileOperation;
+import ru.skubatko.dev.patterns.command.baeldung.command.TextFileOperation;
+import ru.skubatko.dev.patterns.command.baeldung.invoker.TextFileOperationExecutor;
+import ru.skubatko.dev.patterns.command.baeldung.receiver.TextFile;
 
 import org.junit.BeforeClass;
 import org.junit.Test;

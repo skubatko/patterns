@@ -24,6 +24,7 @@
         <module>strategy</module>
         <module>facade</module>
         <module>command</module>
+        <module>template-method</module>
     </modules>
 
     <developers>

@@ -1,6 +1,11 @@
-package ru.skubatko.dev.patterns.baeldung.command;
+/*
+ * VTB Group. Do not reproduce without permission in writing.
+ * Copyright (c) 2020 VTB Group. All rights reserved.
+ */
 
-import ru.skubatko.dev.patterns.baeldung.receiver.TextFile;
+package ru.skubatko.dev.patterns.command.baeldung.command;
+
+import ru.skubatko.dev.patterns.command.baeldung.receiver.TextFile;
 
 public class SaveTextFileOperation implements TextFileOperation {
     

@@ -1,4 +1,4 @@
-package ru.skubatko.dev.patterns.hyperskill;
+package ru.skubatko.dev.patterns.command.hyperskill;
 
 public class Light {
 

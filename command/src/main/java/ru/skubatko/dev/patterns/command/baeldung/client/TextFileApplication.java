@@ -1,10 +1,15 @@
-package ru.skubatko.dev.patterns.baeldung.client;
+/*
+ * VTB Group. Do not reproduce without permission in writing.
+ * Copyright (c) 2020 VTB Group. All rights reserved.
+ */
 
-import ru.skubatko.dev.patterns.baeldung.command.OpenTextFileOperation;
-import ru.skubatko.dev.patterns.baeldung.command.SaveTextFileOperation;
-import ru.skubatko.dev.patterns.baeldung.command.TextFileOperation;
-import ru.skubatko.dev.patterns.baeldung.invoker.TextFileOperationExecutor;
-import ru.skubatko.dev.patterns.baeldung.receiver.TextFile;
+package ru.skubatko.dev.patterns.command.baeldung.client;
+
+import ru.skubatko.dev.patterns.command.baeldung.command.OpenTextFileOperation;
+import ru.skubatko.dev.patterns.command.baeldung.command.SaveTextFileOperation;
+import ru.skubatko.dev.patterns.command.baeldung.command.TextFileOperation;
+import ru.skubatko.dev.patterns.command.baeldung.invoker.TextFileOperationExecutor;
+import ru.skubatko.dev.patterns.command.baeldung.receiver.TextFile;
 
 public class TextFileApplication {
     
