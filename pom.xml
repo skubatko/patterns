@@ -43,7 +43,7 @@
         <org.slf4j.version>1.7.21</org.slf4j.version>
         <logback.version>1.1.7</logback.version>
         <!-- testing -->
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <org.assertj.version>3.6.2</org.assertj.version>
         <commons-io.version>2.6</commons-io.version>
     </properties>
