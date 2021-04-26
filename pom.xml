@@ -45,7 +45,7 @@
         <!-- testing -->
         <junit.version>4.12</junit.version>
         <org.assertj.version>3.6.2</org.assertj.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
     </properties>
 
     <dependencies>
