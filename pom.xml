@@ -41,7 +41,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- logging -->
         <org.slf4j.version>1.7.21</org.slf4j.version>
-        <logback.version>1.1.7</logback.version>
+        <logback.version>1.2.0</logback.version>
         <!-- testing -->
         <junit.version>4.12</junit.version>
         <org.assertj.version>3.6.2</org.assertj.version>
